@@ -14,7 +14,7 @@ class Pizza
     end
 
     def description
-        puts "Піца № #{@number} (діагональ = #{@d}) містить [#{@ingredients.join(',')}]."
+        "Піца № #{@number} (діагональ = #{@d}) містить [#{@ingredients.join(',')}]."
     end
 end
 
