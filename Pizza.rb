@@ -6,4 +6,8 @@ class Pizza
         @@count += 1 
         @number = @@count 
     end
+
+    def description
+        puts "Піца № #{@number} (діагональ = #{@d}) містить [#{@ingredients.join(',')}]."
+    end
 end
